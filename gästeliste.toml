@@ -1,0 +1,167 @@
+[[guests]]
+name = "Christine und Stephan"
+attending.christine = ["afternoon", "dinner"]
+attending.stephan = ["afternoon"]
+is-invited-by-paper = true
+is-invited-to-hike = true
+[[guests]]
+name = "Marina und Timo"
+is-invited-by-paper = true
+is-invited-to-hike = true
+[[guests]]
+name = "Martin und Andrea"
+is-invited-by-paper = true
+is-invited-to-hike = false
+[[guests]]
+name = "Manfred und Margit"
+is-invited-by-paper = true
+is-invited-to-hike = false
+[[guests]]
+name = "Arno"
+is-invited-by-paper = true
+is-invited-to-hike = true
+[[guests]]
+name = "Islam"
+is-invited-by-paper = true
+is-invited-to-hike = true
+[[guests]]
+name = "Mario und Celina"
+is-invited-by-paper = true
+is-invited-to-hike = true
+[[guests]]
+name = "Visu und Nina"
+is-invited-by-paper = true
+is-invited-to-hike = true
+[[guests]]
+name = "David"
+is-invited-by-paper = true
+is-invited-to-hike = true
+[[guests]]
+name = "Lea"
+is-invited-by-paper = true
+is-invited-to-hike = true
+[[guests]]
+name = "Fabian und Anja"
+is-invited-by-paper = true
+is-invited-to-hike = true
+[[guests]]
+name = "Remo"
+is-invited-by-paper = true
+is-invited-to-hike = true
+[[guests]]
+name = "Flavio"
+is-invited-by-paper = true
+is-invited-to-hike = true
+[[guests]]
+name = "Lukas"
+is-invited-by-paper = false
+is-invited-to-hike = true
+[[guests]]
+name = "Janosch"
+is-invited-by-paper = true
+is-invited-to-hike = true
+[[guests]]
+name = "Aaron"
+is-invited-by-paper = true
+is-invited-to-hike = true
+[[guests]]
+name = "Simon"
+is-invited-by-paper = true
+is-invited-to-hike = false
+# Petra
+[[guests]]
+name = "Regula und Jürg"
+is-invited-by-paper = true
+is-invited-to-hike = true
+[[guests]]
+name = "Grossmami"
+is-invited-by-paper = true
+is-invited-to-hike = false
+[[guests]]
+name = "Nick, Emma, Lina und Kelian"
+is-invited-by-paper = true
+is-invited-to-hike = true
+[[guests]]
+name = "Kaj und Nadine"
+is-invited-by-paper = true
+is-invited-to-hike = true
+[[guests]]
+name = "Jan und Prisca"
+is-invited-by-paper = true
+is-invited-to-hike = true
+[[guests]]
+name="Katharina, Irina, Vera und Xenia"
+is-invited-by-paper = true
+is-invited-to-hike = true
+[[guests]]
+name="Philipp und Irene"
+is-invited-by-paper = true
+is-invited-to-hike = false
+[[guests]]
+name="Davia und Jonathan"
+is-invited-by-paper = true
+is-invited-to-hike = true
+[[guests]]
+name="Jorim und Joana"
+is-invited-by-paper = true
+is-invited-to-hike = false
+[[guests]]
+name="Kurt und Brigitte"
+is-invited-by-paper = true
+is-invited-to-hike = false
+[[guests]]
+name="Nathanja und Nathanael"
+is-invited-by-paper = true
+is-invited-to-hike = false
+[[guests]]
+name="Salome und Patrick"
+is-invited-by-paper = true
+is-invited-to-hike = false
+[[guests]]
+name="Tabea"
+is-invited-by-paper = true
+is-invited-to-hike = false
+[[guests]]
+name="Christian"
+is-invited-by-paper = true
+is-invited-to-hike = false
+[[guests]]
+name="Adina und Roman"
+is-invited-by-paper = true
+is-invited-to-hike = true
+[[guests]]
+name="Heiner und Surat"
+is-invited-by-paper = true
+is-invited-to-hike = false
+[[guests]]
+name="Kaspar und Heidi"
+is-invited-by-paper = true
+is-invited-to-hike = false
+[[guests]]
+name="Barbara, Res, Maik und Neil"
+is-invited-by-paper = true
+is-invited-to-hike = true
+[[guests]]
+name="Raneem und David"
+is-invited-by-paper = true
+is-invited-to-hike = true
+[[guests]]
+name="Mirjam und Jovin"
+is-invited-by-paper = true
+is-invited-to-hike = true
+[[guests]]
+name="Daniel"
+is-invited-by-paper = true
+is-invited-to-hike = true
+[[guests]]
+name="Jasmine und Marcel"
+is-invited-by-paper = true
+is-invited-to-hike = true
+[[guests]]
+name="Camilla"
+is-invited-by-paper = true
+is-invited-to-hike = true
+[[guests]]
+name="Turnverein Planzschule"
+is-invited-by-paper = true
+is-invited-to-hike = false
