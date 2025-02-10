@@ -1,0 +1,8 @@
+[package]
+name = "hochzeitsfest"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+serde = "1.0.217"
+toml = { version = "0.8.20", default-features = false, features = ["parse"] }
