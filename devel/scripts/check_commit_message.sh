@@ -1,15 +1,22 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
+# commit to check: first arg or HEAD
+commit_to_check="${1:-$(git rev-parse HEAD)}"
+
+if test -n "${CI+x}" ; then
+    git fetch # GitHub CI only has one ref fetched by default
+fi
+
 echo "Checking commit message for 🥳 emoji..."
-if ! git log -1 --pretty=%B | grep -qE "(:partying_face:|🥳)"
+if ! git log -1 --pretty=%B "$commit_to_check" | grep -qE "(:partying_face:|🥳)"
 then
     echo "Please be more joyful !! 🥳"
     exit 1
 fi
 
 echo "Checking commit message subject length..."
-if (( "$(git log -1 --pretty=%s | wc -c)" > 50 ))
+if (( "$(git log -1 --pretty=%s "$commit_to_check" | wc -c)" > 50 ))
 then
     echo "Please avoid lengthy commit message subjects!"
     echo "https://cbea.ms/git-commit/#limit-50"

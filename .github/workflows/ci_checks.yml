@@ -1,4 +1,8 @@
-on: [push]
+on:
+  pull_request:
+  push:
+    branches:
+      - main
 
 env:
   CARGO_TERM_COLOR: always
@@ -12,7 +16,7 @@ jobs:
       - uses: Swatinem/rust-cache@v2
 
       - name: "Check commit message conventions"
-        run: ./devel/scripts/check_commit_message.sh
+        run: ./devel/scripts/check_commit_message.sh ${{ github.event.pull_request.head.sha }}
 
       - name: cargo test
         run: cargo test --all-features
