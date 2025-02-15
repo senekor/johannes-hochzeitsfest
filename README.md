@@ -27,4 +27,4 @@ Hochzeiten sind freudige Feiern voller Liebe und Glück – und genau dieses Gef
 
 ## Übersicht Anmeldungen
 
-Ein Übersicht über die bis jetzt eingegangenen Anmeldungen findest du [hier](https://github.com/johannesneyer/hochzeitsfest/releases/download/latest/report.pdf).
+Eine Übersicht über die bis jetzt eingegangenen Anmeldungen findest du [hier](https://github.com/johannesneyer/hochzeitsfest/releases/download/latest/report.pdf).
