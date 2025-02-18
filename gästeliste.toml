@@ -81,6 +81,8 @@ is-invited-to-hike = false
 name = "Regula und Jürg"
 is-invited-by-paper = true
 is-invited-to-hike = true
+attending.Regula = ["afternoon", "dinner", "hike"]
+attending."Jürg" = ["afternoon", "dinner", "hike"]
 [[guests]]
 name = "Grossmami"
 is-invited-by-paper = true
