@@ -95,8 +95,3 @@
 //   back
 // }
 // pdfjam --nup 2x1 --landscape --paper a4paper /tmp/einladung.pdf -o /tmp/out.pdf
-
-// Local Variables:
-// typst-ts-watch-options: "/tmp/einladung.pdf --font-path fonts --open"
-// End:
-

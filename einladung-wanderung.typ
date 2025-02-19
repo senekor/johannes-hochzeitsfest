@@ -36,7 +36,3 @@ Bitte meldet euch bis *2025-03-14* an oder ab.
 ooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
 ```
 #v(1fr)
-
-// Local Variables:
-// typst-ts-watch-options: "/tmp/einladung-wanderung.pdf --font-path fonts --open"
-// End:
