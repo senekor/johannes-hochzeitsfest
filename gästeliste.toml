@@ -90,6 +90,7 @@ attending."Jürg" = ["afternoon", "dinner", "hike"]
 name = "Grossmami"
 is-invited-by-paper = true
 is-invited-to-hike = false
+attending = []
 [[guests]]
 name = "Nick, Emma, Lina und Kelian"
 is-invited-by-paper = true
@@ -112,6 +113,8 @@ is-invited-to-hike = true
 name="Philipp und Irene"
 is-invited-by-paper = true
 is-invited-to-hike = false
+attending.Philipp = ["afternoon", "dinner"]
+attending.Irene = ["afternoon", "dinner"]
 [[guests]]
 name="Davia und Jonathan"
 is-invited-by-paper = true
