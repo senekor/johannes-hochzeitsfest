@@ -1,8 +1,8 @@
 use std::collections::HashMap;
 
 use serde::{
-    de::{self, Visitor},
     Deserialize, Deserializer, Serialize,
+    de::{self, Visitor},
 };
 
 #[derive(Debug, Clone, PartialEq, Eq, Serialize, Deserialize)]
