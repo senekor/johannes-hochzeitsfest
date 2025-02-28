@@ -149,6 +149,8 @@ is-invited-to-hike = false
 name="Adina und Roman"
 is-invited-by-paper = true
 is-invited-to-hike = true
+attending.Adina = ["afternoon", "dinner", "hike"]
+attending.Roman = ["afternoon", "dinner", "hike"]
 [[guests]]
 name="Heiner und Surat"
 is-invited-by-paper = true
