@@ -49,7 +49,7 @@
 #let find = it => guests.fold(
   (),
   (acc, g) => {
-    for name in g.at("name").split(regex("(,? und |,)")) {
+    for name in g.at("name").split(regex("(,? und |,)")).map(str.trim) {
       let attending = g.at("attending", default: none)
       if attending == none {
         continue
