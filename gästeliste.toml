@@ -165,6 +165,10 @@ is-invited-to-hike = false
 name="Barbara, Res, Maik und Neil"
 is-invited-by-paper = true
 is-invited-to-hike = true
+attending.Barbara = ["afternoon", "dinner"]
+attending.Res = ["afternoon", "dinner"]
+attending.Maik = ["afternoon", "dinner"]
+attending.Neil = ["afternoon", "dinner"]
 [[guests]]
 name="Raneem und David"
 is-invited-by-paper = true
