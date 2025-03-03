@@ -2,6 +2,8 @@
 
 #let guests = toml("./gästeliste.toml").guests
 
+#let guest-split-regex = regex("(,? und |,\\s?)")
+
 #place(
   top,
   scope: "parent",
@@ -13,7 +15,7 @@
 
   #let num_guests = guests.fold(
     0,
-    (acc, g) => acc + g.name.split(regex("(,? und |,)")).len(),
+    (acc, g) => acc + g.name.split(guest-split-regex).len(),
   );
   #let num_replies = guests.fold(
     0,
@@ -22,7 +24,7 @@
       if attending == none {
         acc
       } else {
-        acc + g.at("name").split(regex("(,? und |,)")).len()
+        acc + g.at("name").split(guest-split-regex).len()
       }
     },
   )
@@ -49,7 +51,7 @@
 #let find = it => guests.fold(
   (),
   (acc, g) => {
-    for name in g.at("name").split(regex("(,? und |,)")).map(str.trim) {
+    for name in g.at("name").split(guest-split-regex) {
       let attending = g.at("attending", default: none)
       if attending == none {
         continue
@@ -111,7 +113,7 @@
         if attending != none {
           return ()
         }
-        guest.at("name").split(regex("(,? und |,\\s?)"))
+        guest.at("name").split(guest-split-regex)
       })
       .flatten()
   )
