@@ -160,6 +160,8 @@ attending.Roman = ["afternoon", "dinner", "hike"]
 name="Heiner und Surat"
 is-invited-by-paper = true
 is-invited-to-hike = false
+attending.Heiner = ["afternoon", "dinner"]
+attending.Surat = ["afternoon", "dinner"]
 [[guests]]
 name="Kaspar und Heidi"
 is-invited-by-paper = true
