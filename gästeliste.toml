@@ -121,6 +121,8 @@ attending.Irene = ["afternoon", "dinner"]
 name="Davia und Jonathan"
 is-invited-by-paper = true
 is-invited-to-hike = true
+attending.Davia = ["afternoon", "dinner"]
+attending.Jonathan = ["afternoon", "dinner"]
 [[guests]]
 name="Jorim und Joana"
 is-invited-by-paper = true
